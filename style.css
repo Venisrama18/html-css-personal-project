@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    background-color:#212227;
+    color: white;
+}
+
+#topbar{
+    background-color: #637074 ;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid;
+}
+
+#header-container{
+    width: 90%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    text-decoration:none ;
+    padding: 20px;
+}
