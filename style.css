@@ -4,16 +4,9 @@ body{
     color: white;
 }
 
-#topbar{
-    background-color: black ;
-    text-align: center;
-    padding: 10px;
-    font-size: 15px;
-}
-
 #header-container{
     width: 90%;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,11 +16,69 @@ body{
 .nav-link{
     color: white;
     text-decoration:none ;
-    padding: 20px;
+    padding: 15px;
 }
 
 #logo{
-    padding: 25px;
+    padding: 20px;
     color: red;
 }
 
+.Live-bar{
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   padding: 12px 20px;
+   background: linear-gradient(180deg, #1b1e26, #14171d);
+   border-radius: 8px;
+   color: #eaeaea;
+   font-size: 15px;
+   max-width: 100%;
+}
+
+.Live-badge{
+    background: #c0392b;
+    color: white;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.featured {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  background: #111;
+}
+
+.featured img {
+  width: 100%;
+  height: 320px;
+  display: block;
+}
+
+.featured-content {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: #fff;
+  max-width: 70%;
+}
+
+.featured-content h2 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.featured-content p {
+  font-size: 14px;
+}
+
+.featured img {
+  transition: transform 0.6s ease;
+}
+
+.featured:hover img {
+  transform: scale(1.08);
+}
