@@ -1,39 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CS-NEWS</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>CSNEWS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div id="header-container">
-            <span id="logo"><b>CSNEWS</b></span>
-            <nav>
-                <a href="index.html" class="nav-link">News</a>
-                <a href="matches.html" class="nav-link">Matches</a>
-                <a href="results.html" class="nav-link">Results</a>
-                <a href="player.html" class="nav-link">Player</a>
-            </nav>
-            
-    </header>
 
-    <div class="Live-bar">
-            <span class="Live-badge">LIVE</span>
-            <span class="match-text">
-                Faze<strong> 8 : 6 </strong>Navi
-            </span>
-        </div>
+<header class="header">
+  <div class="logo">CSNEWS</div>
+  <nav class="nav"> 
+     <a href="index.html">News</a>
+    <a href="matches.html">Matches</a>
+    <a href="player.html">Player</a>
+  </nav>
+</header>
 
-    <div class="featured">
-        <img src="img/Iem Katowice.jpg" alt="IEM Katowice">
+<div class="live-bar">
+  <span class="live">LIVE</span>
+  <span>FaZe <b>8 : 6</b> NAVI</span>
+</div>
 
-        <div class="featured-content">
-             <h2>Vitality wins IEM Katowice 2026</h2>
-             <p>ZywOo with MVP performance in the grand final.</p>
-         </div>
+<div class="container">
+
+  <main class="main">
+
+    <section class="featured">
+      <img src="img/Iem Katowice.jpg" alt="">
+      <div class="featured-text">
+        <h2>Vitality wins IEM Katowice 2026</h2>
+        <p>ZywOo with MVP performance in the grand final.</p>
+      </div>
+    </section>
+
+    <h3 class="section-title">Latest Matches</h3>
+
+    <div class="match">
+      <img src="img/fazelogo.webp">
+      <span>FaZe</span>
+      <b class="score">16 : 12</b>
+      <span>NAVI</span>
+      <img src="img/navilogo.png">
     </div>
+
+    <div class="match">
+      <img src="img/g2logo.jpg">
+      <span>G2</span>
+      <b class="score">13 : 16</b>
+      <span>Vitality</span>
+      <img src="img/vitalitylogo.png">
+    </div>
+
+    <h3 class="section-title">Latest News</h3>
+
+    <div class="news">
+      <img src="img/g2logo.jpg">
+      <div>
+        <span class="tag">NEWS</span>
+        <h4>G2 announce roster change</h4>
+        <small>3 hours ago</small>
+      </div>
+    </div>
+
+    <div class="news">
+      <img src="img/fazelogo.webp">
+      <div>
+        <span class="tag">NEWS</span>
+        <h4>FaZe secure playoff spot</h4>
+        <small>5 hours ago</small>
+      </div>
+    </div>
+
+  </main>
+
+  <aside class="sidebar">
+
+    <div class="card">
+      <h4>Ongoing Event</h4>
+      <img src="img/iemkatwoice.webp">
+      <p>IEM Katowice 2026</p>
+    </div>
+
+    <div class="card">
+      <h4>Top Teams</h4>
+      <ul>
+        <li>1 Vitality</li>
+        <li>2 FaZe</li>
+        <li>3 NAVI</li>
+      </ul>
+    </div>
+
+    <div class="card player">
+      <h4>Player of the Week</h4>
+      <img src="img/Player of the week.jpg">
+      <p>ZywOo<br><small>Rating 1.34</small></p>
+    </div>
+
+  </aside>
+
+</div>
 
 </body>
 </html>
