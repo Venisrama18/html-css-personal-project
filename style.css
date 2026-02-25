@@ -161,6 +161,7 @@ body {
   overflow: hidden;
   transition: 0.3s ease;
   border: 1px solid rgba(255,255,255,0.05);
+  width: 260px;
 }
 
 .player-card:hover {
@@ -205,34 +206,6 @@ h1 {
   color: #ff0044;
 }
 
-.matches-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.match-card {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1e1e1e;
-  border-radius: 10px;
-  padding: 15px 20px;
-}
-
-.match-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 10px #601195;
-}
-
-.team {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .team img {
   width: 40px;
   height: 40px;
@@ -267,6 +240,76 @@ h1 {
 .date {
   font-size: 12px;
   color: #aaa;
+}
+
+.matches-section{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.matches-section h2{
+    text-align: center;
+    color: #ff0044;
+    margin-bottom: 20px;
+}
+
+.matches-table{
+    width: 100%;
+    background: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.matches-table th{
+    background: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.matches-table td{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #333;
+}
+
+.matches-table tr:hover{
+    background: #222;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.team img{
+    width: 25px;
+}
+
+.score{
+    font-weight: bold;
+}
+
+.status{
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.finished{
+    background: green;
+}
+
+.live{
+    background: red;
+}
+
+.upcoming{
+    background: orange;
 }
 
 @media (max-width: 900px) {

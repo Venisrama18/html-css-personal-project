@@ -16,53 +16,84 @@
   </nav>
 </header>
 
-  <h1>CS:GO Matches</h1>
+  <section class="matches-section">
+    <h2>CS:GO Matches</h2>
 
-  <div class="matches-container">
+    <table class="matches-table">
+        <th>
+            <tr>
+                <th>Team 1</th>
+                <th>Score</th>
+                <th>Team 2</th>
+                <th>Map</th>
+                <th>Status</th>
+                <th>Date</th>
+            </tr>
+        </th>
 
-    <div class="match-card">
-      <div class="team">
-        <img src="img/astralislogo.jpg" alt="Astralis">
-        <span>Astralis</span>
-      </div>
-      <div class="score">16 - 12</div>
-      <div class="team">
-        <span>FaZe Clan</span>
-        <img src="img/fazelogo.webp" alt="FaZe Clan">
-      </div>
-      <div class="status finished">Finished</div>
-      <div class="date">23 Feb 2026</div>
-    </div>
+            <tr>
+                <td class="team">
+                    <img src="img/astralislogo.jpg">
+                    Astralis
+                </td>
 
-    <div class="match-card">
-      <div class="team">
-        <img src="img/navilogo.png" alt="NAVI">
-        <span>NAVI</span>
-      </div>
-      <div class="score">14 - 16</div>
-      <div class="team">
-        <span>G2 Esports</span>
-        <img src="img/g2logo.jpg" alt="G2 Esports">
-      </div>
-      <div class="status live">Live</div>
-      <div class="date">23 Feb 2026</div>
-    </div>
+                <td class="score win">16 - 12</td>
 
-    <div class="match-card">
-      <div class="team">
-        <img src="img/liquidlogo.webp" alt="Team Liquid">
-        <span>Team Liquid</span>
-      </div>
-      <div class="score">-</div>
-      <div class="team">
-        <span>ENCE</span>
-        <img src="img/encelogo.png" alt="ENCE">
-      </div>
-      <div class="status upcoming">Upcoming</div>
-      <div class="date">24 Feb 2026</div>
-    </div>
+                <td class="team">
+                    <img src="img/fazelogo.webp">
+                    FaZe Clan
+                </td>
 
-  </div>
+                <td>Mirage</td>
+
+                <td><span class="status finished">Finished</span></td>
+
+                <td>23 Feb 2026</td>
+            </tr>
+
+            <tr>
+                <td class="team">
+                    <img src="img/navilogo.png">
+                    NAVI
+                </td>
+
+                <td class="score live">14 - 16</td>
+
+                <td class="team">
+                    <img src="img/g2logo.jpg">
+                    G2 Esports
+                </td>
+
+                <td>Inferno</td>
+
+                <td><span class="status live">Live</span></td>
+
+                <td>23 Feb 2026</td>
+            </tr>
+
+            <tr>
+                <td class="team">
+                    <img src="img/liquidlogo.webp">
+                    Team Liquid
+                </td>
+
+                <td class="score upcoming">-</td>
+
+                <td class="team">
+                    <img src="img/encelogo.png">
+                    ENCE
+                </td>
+
+                <td>Nuke</td>
+
+                <td><span class="status upcoming">Upcoming</span></td>
+
+                <td>24 Feb 2026</td>
+            </tr>
+
+        
+    </table>
+</section>
 
 </body>
 </html>
